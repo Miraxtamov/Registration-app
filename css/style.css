@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	transition: 0.3s ease;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+input,
+select,
+button,
+label {
+	width: 80%;
+	outline: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	margin-top: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+	margin-top: 5px;
+	padding: 14px 8px;
+	font-size: 14px;
+	border: 1px solid #555555;
+}
+
+input:focus {
+	border: 1px solid #3bafd3;
+}
+
+select {
+	padding: 8px;
+	margin-top: 15px;
+}
+
+button {
+	margin-top: 10px;
+	padding: 8px;
+	border: none;
+	color: #ffffff;
+	background-color: #3bafd3;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+button:focus {
+	background-color: #339cbd;
+}
+
+::placeholder {
+	font-size: 14px;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #3bafd3;
+	color: white;
+}
+
+table td {
+	text-align: left;
+}
+
+table td,
+table th {
+	border: 1px solid #339cbd;
+	padding: 8px;
+}

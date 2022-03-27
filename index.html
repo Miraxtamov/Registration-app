@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavScript</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<form class="form">
+				<label for="fname">First name:</label>
+				<input
+					required
+					type="text"
+					class="first__name input"
+					placeholder="First name"
+					id="fname"
+				/>
+				<label for="lname">Last name:</label>
+				<input
+					required
+					type="text"
+					class="input last__name"
+					placeholder="Last name"
+					id="lname"
+				/>
+				<label for="uage">User age:</label>
+				<input
+					required
+					type="number"
+					class="input user__age"
+					placeholder="User age"
+					id="uage"
+				/>
+				<select class="select">
+					<option value="Frontend Developer">Frontend Developer</option>
+					<option value="Backend Developer">Backend Developer</option>
+					<option value="Design">Design</option>
+					<option value="Copywriter">Copywriter</option>
+					<option value="Mobile">Mobile Developer</option>
+					<option value="Design">Design</option>
+				</select>
+				<button type="submit" onclick="addTable()">Submit</button>
+			</form>
+			<table class="table">
+				<tr>
+					<th>№</th>
+					<th>First name</th>
+					<th>Last name</th>
+					<th>User age</th>
+					<th>Study category</th>
+				</tr>
+				<tbody id="table"></tbody>
+			</table>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
