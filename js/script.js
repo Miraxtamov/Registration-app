@@ -5,8 +5,6 @@ const lastName = document.querySelector(".last__name");
 const userAge = document.querySelector(".user__age");
 const category = document.querySelector(".select");
 
-
-
 let i = 0;
 function addTable() {
 	let firstName = document.querySelector(".first__name").value;
@@ -30,7 +28,6 @@ function addTable() {
 	document.querySelector("#table").innerHTML += table;
 }
 
-
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
 
@@ -38,5 +35,3 @@ form.addEventListener("submit", (e) => {
 	lastName.value = null;
 	userAge.value = null;
 });
-
-
