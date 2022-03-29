@@ -26,12 +26,12 @@ label {
 
 label {
 	margin-top: 25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input {
 	margin-top: 5px;
-	padding: 14px 8px;
+	padding: 16px 8px;
 	font-size: 14px;
 	border: 1px solid #555555;
 }
@@ -41,8 +41,9 @@ input:focus {
 }
 
 select {
-	padding: 8px;
+	padding: 10px;
 	margin-top: 15px;
+	font-size: 15px;
 }
 
 button {
@@ -88,4 +89,8 @@ table td,
 table th {
 	border: 1px solid #339cbd;
 	padding: 8px;
+}
+
+.search__button {
+	margin-bottom: 60px;
 }
