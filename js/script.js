@@ -1,9 +1,7 @@
 const form = document.querySelector(".form");
 const input = document.querySelector(".input");
-const firstName = document.querySelector(".first__name");
-const lastName = document.querySelector(".last__name");
-const userAge = document.querySelector(".user__age");
-const category = document.querySelector(".select");
+const formSearch = document.querySelector(".form__search");
+const inputSearch = document.querySelector(".search__input");
 
 let i = 0;
 function addTable() {
@@ -34,4 +32,5 @@ form.addEventListener("submit", (e) => {
 	input.value = null;
 	lastName.value = null;
 	userAge.value = null;
+	firstName.value = null;
 });
