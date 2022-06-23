@@ -2,6 +2,9 @@ const form = document.querySelector(".form");
 const input = document.querySelector(".input");
 const formSearch = document.querySelector(".form__search");
 const inputSearch = document.querySelector(".search__input");
+const firstName = document.querySelector(".first__name");
+const lastName = document.querySelector(".last__name");
+const userAge = document.querySelector(".user__age");
 
 let i = 0;
 function addTable() {
