@@ -31,7 +31,6 @@ function addTable() {
 
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
-
 	input.value = null;
 	lastName.value = null;
 	userAge.value = null;
